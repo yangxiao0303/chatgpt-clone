@@ -1,0 +1,29 @@
+.rootLayout {
+  padding: 0.4267rem 1.7067rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      gap: 0.2133rem;
+
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+
+  main {
+    flex: 1;
+    overflow: hidden;
+  }
+}
