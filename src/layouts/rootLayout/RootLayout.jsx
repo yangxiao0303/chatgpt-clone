@@ -26,9 +26,9 @@ export default function RootLayout() {
             <span>My AI</span>
           </Link>
           <div className="user">
-            <SignedOut>
+            {/* <SignedOut>
               <SignInButton />
-            </SignedOut>
+            </SignedOut> */}
             <SignedIn>
               <UserButton />
             </SignedIn>
